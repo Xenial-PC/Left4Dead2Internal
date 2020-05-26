@@ -1,0 +1,2 @@
+#define LEFTFOURDEADTWOINTERNAL_API __declspec(dllexport)
+#define LEFTFOURDEADTWOINTERNAL_API __declspec(dllimport)

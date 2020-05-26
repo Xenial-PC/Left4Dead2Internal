@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="proc">
+      <UniqueIdentifier>{3f4b6c2f-5565-4fb5-a1bf-26d96e107954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{0522e886-424b-4843-b6fe-671ae8809c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mem">
+      <UniqueIdentifier>{627501f4-5e75-419d-93d5-33f910dc963c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PEB">
+      <UniqueIdentifier>{f4dd1845-9993-4ffd-8f5c-8d55f8927b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Patternscanning">
+      <UniqueIdentifier>{8ed556ad-003e-44ba-9bb1-93989ec0616d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interfaces">
+      <UniqueIdentifier>{63596ec1-99c1-48c5-9edc-a424fc7de891}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="proc.h">
+      <Filter>proc</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="PEB.h">
+      <Filter>PEB</Filter>
+    </ClInclude>
+    <ClInclude Include="Patternscaning.h">
+      <Filter>Patternscanning</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngine.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseEntity.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityList.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineTool.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugOverlay.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="VMatrix.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="proc.cpp">
+      <Filter>proc</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="PEB.cpp">
+      <Filter>PEB</Filter>
+    </ClCompile>
+    <ClCompile Include="Patternscaning.cpp">
+      <Filter>Patternscanning</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="detours.lib">
+      <Filter>Source Files</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

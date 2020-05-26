@@ -1,0 +1,4 @@
+F:\VSRepos\VSStudio\C++\GameHacking\LeftFourDeadTwoInternal\Debug\LEFTFOURDEADTWOINTERNAL.dll
+F:\VSRepos\VSStudio\C++\GameHacking\LeftFourDeadTwoInternal\Debug\LEFTFOURDEADTWOINTERNAL.pdb
+E:\VSRepos\VSStudio\C++\GameHacking\LeftFourDeadTwoInternal\Debug\LEFTFOURDEADTWOINTERNAL.dll
+E:\VSRepos\VSStudio\C++\GameHacking\LeftFourDeadTwoInternal\Debug\LEFTFOURDEADTWOINTERNAL.pdb
